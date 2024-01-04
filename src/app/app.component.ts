@@ -6,6 +6,7 @@ import { FooterComponent } from "./core/footer/footer.component";
 import {NavigationComponent  } from "./navigation/navigation.component";
 import {TeamComponent  } from "./team/team.component";
 import { ActivitiesComponent } from "./activities/activities.component";
+import { ContactUsComponent } from "./contact-us/contact-us.component";
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -15,7 +16,8 @@ import { ActivitiesComponent } from "./activities/activities.component";
     FooterComponent,
     NavigationComponent,
     TeamComponent,
-    ActivitiesComponent
+    ActivitiesComponent,
+    ContactUsComponent
 
   ],
   templateUrl: './app.component.html',
