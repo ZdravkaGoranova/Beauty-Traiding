@@ -1,0 +1,2 @@
+# Beauty-Traiding
+Beauty Traiding
