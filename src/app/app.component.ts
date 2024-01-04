@@ -7,6 +7,7 @@ import {NavigationComponent  } from "./navigation/navigation.component";
 import {TeamComponent  } from "./team/team.component";
 import { ActivitiesComponent } from "./activities/activities.component";
 import { ContactUsComponent } from "./contact-us/contact-us.component";
+import { GalleryComponent } from "./gallery/gallery.component";
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -17,7 +18,8 @@ import { ContactUsComponent } from "./contact-us/contact-us.component";
     NavigationComponent,
     TeamComponent,
     ActivitiesComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    GalleryComponent
 
   ],
   templateUrl: './app.component.html',
