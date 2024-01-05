@@ -114,4 +114,7 @@ body{margin-top:20px;}
 .section-title .title {
     letter-spacing: 0.5px;
     font-size: 30px;
-}
+}.headerTop{
+  padding-top: 8rem;
+  
+  }
