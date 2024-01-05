@@ -123,3 +123,11 @@ body{margin-top:20px;}
 	padding-top: 8rem;
 	
 	}
+	.section-title h2 {
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 0;
+        position: relative;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
