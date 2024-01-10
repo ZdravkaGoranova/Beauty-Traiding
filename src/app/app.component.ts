@@ -12,7 +12,8 @@ import { ManicureComponent } from "./manicure/manicure.component";
 import {MakeupComponent  } from "./makeup/makeup.component";
 import {BarberComponent  } from "./barber/barber.component";
 import {PermanentMakeUpComponent  } from "./permanent-make-up/permanent-make-up.component";
-
+import {  KeratinousComponent} from "./keratinous/keratinous.component";
+import {  BeauticianComponent} from "./beautician/beautician.component";
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -28,7 +29,9 @@ import {PermanentMakeUpComponent  } from "./permanent-make-up/permanent-make-up.
     ManicureComponent,
     MakeupComponent,
     BarberComponent,
-    PermanentMakeUpComponent
+    PermanentMakeUpComponent,
+    KeratinousComponent,
+    BeauticianComponent
 
   ],
   templateUrl: './app.component.html',

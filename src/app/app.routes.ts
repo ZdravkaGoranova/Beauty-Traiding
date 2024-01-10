@@ -9,6 +9,8 @@ import { ManicureComponent } from "./manicure/manicure.component";
 import {BarberComponent  } from "./barber/barber.component";
 import {MakeupComponent  } from "./makeup/makeup.component";
 import {PermanentMakeUpComponent  } from "./permanent-make-up/permanent-make-up.component";
+import {  KeratinousComponent} from "./keratinous/keratinous.component";
+import {  BeauticianComponent} from "./beautician/beautician.component";
 
 export const routes: Routes = [
 
@@ -22,4 +24,6 @@ export const routes: Routes = [
     { path: 'manicure', component: ManicureComponent },
     { path: 'barber', component: BarberComponent },
     { path: 'permanentMakeup', component: PermanentMakeUpComponent },
+    { path: 'KeratinousKichuras', component: KeratinousComponent },
+    { path: 'beautician', component: BeauticianComponent },
 ];

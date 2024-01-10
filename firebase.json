@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist\\beauty-traiding-app",
+    "public": "dist/beauty-traiding-app/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
