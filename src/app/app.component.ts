@@ -8,6 +8,11 @@ import {TeamComponent  } from "./team/team.component";
 import { ActivitiesComponent } from "./activities/activities.component";
 import { ContactUsComponent } from "./contact-us/contact-us.component";
 import { GalleryComponent } from "./gallery/gallery.component";
+import { ManicureComponent } from "./manicure/manicure.component";
+import {MakeupComponent  } from "./makeup/makeup.component";
+import {BarberComponent  } from "./barber/barber.component";
+import {PermanentMakeUpComponent  } from "./permanent-make-up/permanent-make-up.component";
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -19,7 +24,11 @@ import { GalleryComponent } from "./gallery/gallery.component";
     TeamComponent,
     ActivitiesComponent,
     ContactUsComponent,
-    GalleryComponent
+    GalleryComponent,
+    ManicureComponent,
+    MakeupComponent,
+    BarberComponent,
+    PermanentMakeUpComponent
 
   ],
   templateUrl: './app.component.html',
