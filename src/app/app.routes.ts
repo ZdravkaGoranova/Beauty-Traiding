@@ -17,7 +17,7 @@ export const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: '/home' },
     { path: 'home', component: HeaderComponent },
     { path: 'activities', component: ActivitiesComponent },
-    { path: 'teams', component: TeamComponent },
+    // { path: 'teams', component: TeamComponent },
     { path: 'gallery', component: GalleryComponent },
     { path: 'contactUs', component: ContactUsComponent },
     { path: 'makeup', component: MakeupComponent },
