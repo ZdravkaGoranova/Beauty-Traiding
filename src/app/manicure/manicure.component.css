@@ -43,3 +43,11 @@
 img{
     padding-top: 3rem;
 }
+
+.btn-link{
+    text-decoration: none;
+    color:black;
+}
+.btn-link:hover{
+    color:white;
+}

@@ -131,3 +131,11 @@ body{margin-top:20px;}
         text-transform: capitalize;
         margin-bottom: 15px;
     }
+
+	.btn-link{
+		text-decoration: none;
+		color:black;
+	}
+	.btn-link:hover{
+		color:white;
+	}
