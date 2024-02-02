@@ -1,141 +1,102 @@
 body{margin-top:20px;}
 
-/*----------------------------*/
-
-.content-item {
-    padding:30px 0;
-	background-color:#FFFFFF;
+.margin30 {
+    margin-bottom: 30px;
 }
 
-.content-item.grey {
-	background-color:#F0F0F0;
-	padding:50px 0;
-	height:100%;
+.item-img-wrap {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
 }
 
-.content-item h2 {
-	font-weight:700;
-	font-size:35px;
-	line-height:45px;
-	text-transform:uppercase;
-	margin:20px 0;
+.item-img-wrap img {
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    width: 100%;
 }
 
-.content-item h3 {
-	font-weight:400;
-	font-size:20px;
-	color:#555555;
-	margin:10px 0 15px;
-	padding:0;
+/************************image hover effect*******************/
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
 }
 
-.content-headline {
-	height:1px;
-	text-align:center;
-	margin:20px 0 70px;
+.item-img-wrap img {
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  width: 100%;
 }
 
-.content-headline h2 {
-	background-color:#FFFFFF;
-	display:inline-block;
-	margin:-20px auto 0;
-	padding:0 20px;
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 
-.grey .content-headline h2 {
-	background-color:#F0F0F0;
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(http://bootstraplovers.com/templates/assan-2.2/main-template/img/plus.png) no-repeat center center rgba(0, 0, 0, 0.7);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -moz-transition: opacity 250ms linear;
+  -o-transition: opacity 250ms linear;
+  -webkit-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
 }
 
-.content-headline h3 {
-	font-size:14px;
-	color:#AAAAAA;
-	display:block;
+.item-img-wrap:hover .item-img-overlay span {
+  opacity: 1;
+}
+
+.item-img-wrap:hover img {
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
-#gallery .row {
-    margin:0;
+/*************pagination***********/
+.gallery-bottom .pagination {
+  margin-top: 0px;
 }
 
-#gallery .row > div {
-	padding:0;
+.pagination > li > a, .pagination > li > span {
+  background-color: #ccc;
+  padding: 3px 9px;
+  color: #fff;
+  border: 0px;
 }
 
-#gallery .overlay-wrapper:hover .overlay {
-	background-color:rgba(0,0,0,0.7);
+.pagination > li > a {
+  margin-right: 5px;
 }
 
-#gallery-item h2 {
-	font-size:28px;
-	margin-top:0;
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #32c5d2;
 }
-
-#gallery-item img {
-	background-color:#FFFFFF;
-	border:3px solid #999999;
-	padding:7px;
+.container{
+    padding-top: 10rem;
 }
-
-.overlay-wrapper {
-    position:relative;
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 15px;
 }
-
-.overlay-wrapper .overlay {
-    bottom:0;
-    left:0;
-    opacity:0;
-    overflow:hidden;
-    position:absolute;
-    right:0;
-    top:0;
-	text-align:center;
-	padding-top:25%;
-	transition:all 0.4s ease;
-}
-
-.overlay-wrapper .overlay a {
-	font-size:20px;
-	width:50px;
-	height:50px;
-	color:#FFFFFF;
-	display:inline-block;
-	text-align:center;
-	padding-top:12px;
-	border-radius:50%;
-	margin-right:15px;
-	opacity:0.8;
-}
-
-.overlay-wrapper .overlay a:last-child {
-	margin-right:0;
-}
-
-.overlay-wrapper .overlay a:hover {
-	background-color:#333333;
-	color:#FFFFFF;
-}
-
-.overlay-wrapper:hover .overlay {
-	background-color:rgba(0,0,0,0.5);
-	opacity:1;
-}
-.headerTop{
-	padding-top: 8rem;
-	
-	}
-	.section-title h2 {
-        font-size: 40px;
-        font-weight: 500;
-        margin-top: 0;
-        position: relative;
-        text-transform: capitalize;
-        margin-bottom: 15px;
-    }
-
-	.btn-link{
-		text-decoration: none;
-		color:black;
-	}
-	.btn-link:hover{
-		color:white;
-	}
