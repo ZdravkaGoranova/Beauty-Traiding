@@ -356,3 +356,6 @@ padding-top: 8rem;
     border-radius: 50px;
     transition: all 0.3s;
 }
+.no-underline {
+  text-decoration: none;
+}
