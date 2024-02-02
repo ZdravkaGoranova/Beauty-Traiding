@@ -320,3 +320,6 @@ ol.styled_list li {
 .btn-link:hover{
     color:white;
 }
+.btn-social a i{
+    color: #e3e6da
+  }
