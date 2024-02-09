@@ -21,6 +21,7 @@ import { TilesGalleryComponent } from "./tiles-gallery/tiles-gallery.component";
 import { PermanentKeratinouspGalleryComponent } from "./permanent-keratinousp-gallery/permanent-keratinousp-gallery.component";
 import {PermanentMakeUpGalleryComponent  } from "./permanent-make-up-gallery/permanent-make-up-gallery.component";
 
+import { PromotionsComponent} from "./promotions/promotions.component";
 
 
 export const routes: Routes = [
@@ -45,4 +46,5 @@ export const routes: Routes = [
     { path: 'tiles/gallery', component: TilesGalleryComponent },
     { path: 'keratinousKichuras/gallery', component: PermanentKeratinouspGalleryComponent },
     { path: 'permanentMakeup/gallery', component: PermanentMakeUpGalleryComponent },
+    { path: 'promotions', component: PromotionsComponent },
 ];
