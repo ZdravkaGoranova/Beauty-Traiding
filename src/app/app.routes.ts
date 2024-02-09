@@ -3,18 +3,20 @@ import { Routes } from '@angular/router';
 import { ActivitiesComponent } from "./activities/activities.component";
 import { ContactUsComponent } from "./contact-us/contact-us.component";
 import { GalleryComponent } from "./gallery/gallery.component";
-import {TeamComponent  } from "./team/team.component";
-import {HeaderComponent  } from "./core/header/header.component";
+import { TeamComponent } from "./team/team.component";
+import { HeaderComponent } from "./core/header/header.component";
 import { ManicureComponent } from "./manicure/manicure.component";
-import {BarberComponent  } from "./barber/barber.component";
-import {MakeupComponent  } from "./makeup/makeup.component";
-import {PermanentMakeUpComponent  } from "./permanent-make-up/permanent-make-up.component";
-import {  KeratinousComponent} from "./keratinous/keratinous.component";
-import {  BeauticianComponent} from "./beautician/beautician.component";
-import {  TilesComponent} from "./tiles/tiles.component";
-import {  ManicureGalleryComponent} from "./manicure-gallery/manicure-gallery.component";
-import {MakeupGalleryComponent  } from "./makeup-gallery/makeup-gallery.component";
-
+import { BarberComponent } from "./barber/barber.component";
+import { MakeupComponent } from "./makeup/makeup.component";
+import { PermanentMakeUpComponent } from "./permanent-make-up/permanent-make-up.component";
+import { KeratinousComponent } from "./keratinous/keratinous.component";
+import { BeauticianComponent } from "./beautician/beautician.component";
+import { TilesComponent } from "./tiles/tiles.component";
+import { ManicureGalleryComponent } from "./manicure-gallery/manicure-gallery.component";
+import { MakeupGalleryComponent } from "./makeup-gallery/makeup-gallery.component";
+import { BarberGalleryComponent } from "./barber-gallery/barber-gallery.component";
+import { BeauticianGalleryComponent } from "./beautician-gallery/beautician-gallery.component";
+import { TilesGalleryComponent } from "./tiles-gallery/tiles-gallery.component";
 
 export const routes: Routes = [
 
@@ -33,5 +35,7 @@ export const routes: Routes = [
     { path: 'tiles', component: TilesComponent },
     { path: 'manicure/gallery', component: ManicureGalleryComponent },
     { path: 'makeUp/gallery', component: MakeupGalleryComponent },
-    
+    { path: 'beautician/gallery', component: BeauticianGalleryComponent },
+    { path: 'barber/gallery', component: BarberGalleryComponent },
+    { path: 'tiles/gallery', component: TilesGalleryComponent },
 ];
