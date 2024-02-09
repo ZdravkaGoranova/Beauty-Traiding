@@ -18,6 +18,11 @@ import { BarberGalleryComponent } from "./barber-gallery/barber-gallery.componen
 import { BeauticianGalleryComponent } from "./beautician-gallery/beautician-gallery.component";
 import { TilesGalleryComponent } from "./tiles-gallery/tiles-gallery.component";
 
+import { PermanentKeratinouspGalleryComponent } from "./permanent-keratinousp-gallery/permanent-keratinousp-gallery.component";
+import {PermanentMakeUpGalleryComponent  } from "./permanent-make-up-gallery/permanent-make-up-gallery.component";
+
+
+
 export const routes: Routes = [
 
     { path: '', pathMatch: 'full', redirectTo: '/home' },
@@ -38,4 +43,6 @@ export const routes: Routes = [
     { path: 'beautician/gallery', component: BeauticianGalleryComponent },
     { path: 'barber/gallery', component: BarberGalleryComponent },
     { path: 'tiles/gallery', component: TilesGalleryComponent },
+    { path: 'keratinousKichuras/gallery', component: PermanentKeratinouspGalleryComponent },
+    { path: 'permanentMakeup/gallery', component: PermanentMakeUpGalleryComponent },
 ];
